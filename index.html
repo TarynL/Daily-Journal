@@ -12,39 +12,16 @@
 <body>
 
     <header>
-        <nav>
-            <dic> logo </div>
-                <h1>Taryn Lytle's Daily Journal</h1>
-                <ul>
-                    <li></li>
-                </ul>
+        <div> logo </div>
+        <h1>Taryn Lytle's Daily Journal</h1>
+
+        <nav class="navbar">
 
         </nav>
 
+
+
     </header>
-
-    <main>
-        <section>
-            <h3>date</h3>
-        </section>
-
-        <section>
-            <h3>topic</h3>
-        </section>
-
-        <article>
-            <h2>Entry</h2>
-        </article>
-
-        <section>
-            <h3>Mood</h3>
-        </section>
-
-        <div>
-            <h3>submit</h3>
-        </div>
-
-    </main>
 
     <aside>
         <form>
@@ -52,11 +29,45 @@
         </form>
     </aside>
 
+    <main>
+        <form action="">
+            <fieldset>
+                <label for="journalDate">Date</label>
+                <input type="date" name="journalDate" id="journalDate">
+            </fieldset>
+
+            <h4>Topic</h4>
+            <input type="text" name="topic" id="topic">
+
+
+
+            <h2>Journal Entry</h2>
+            <textarea name="journalEntry" id="journalEntry" cols="30" rows="10"></textarea>
+
+
+            <label for="mood">How are you feeling:</label>
+            <select id="mood" name="mood">
+                <option value="happy">Delightful</option>
+                <option value="mad">Infuriated</option>
+                <option value="sad">Out of Sorts</option>
+                <option value="content">Untroubled</option>
+            </select>
+            
+            <input type="submit" value="Submit">
+            <!-- 
+            <button type="submit"></button> -->
+
+
+        </form>
+
+    </main>
+
+
 
     <footer>
-        <div>Name</div>
-        <div>githublink</div>
-        <p>&copy; 2021 Cohort 47 <a href="http://nashvillesoftwareschool.com/">Nashville Software School</a></p>
+
+        <div>Taryn Lytle <a href="https://github.com/TarynL">GitHub</a></div>
+        <p> &copy; 2021 Cohort 47 <a href="http://nashvillesoftwareschool.com/">Nashville Software School</a></p>
     </footer>
 
 
