@@ -24,16 +24,16 @@ const journal = [
     },
     {
         id: 4,
-        date: "07/24/2025",
+        date: "07/04/1985",
         concept: "Automated",
-        entry: "Lets make data loop through to make our lives a less stressful",
+        entry: "Made data loop through to make our lives less stressful",
         mood: "content"
     },
     {
         id: 3,
-        date: "07/24/2025",
+        date: "01/20/2020",
         concept: "Javascript",
-        entry: "Javascript on javascript, imported and exported, then lets fix all the errors and be done.",
+        entry: "Javascript on javascript, imported and exported, then fixed all the errors and be done.",
         mood: "sad"
     }
     
