@@ -13,7 +13,7 @@ let entryRep ="";
 
 export const EntryListComponent = () => {
     // Use the journal entry data from the data module component
-    const entries = getJournalEntries()
+    const entries = getJournalEntries();
 
     for (const entry of entries) {
         entryRep += JournalEntryComponent(entry);
@@ -23,6 +23,7 @@ export const EntryListComponent = () => {
             Invoke the component that returns an
             HTML representation of a single entry
         */
-        entryLog.innerHTML += entryRep;
+        
     }
+    entryLog.innerHTML += entryRep;
 }

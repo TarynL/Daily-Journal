@@ -1,8 +1,9 @@
 html{
+    font-family: 'Playfair Display', serif;
 
 }
 body {
-	
+	background-color: #7B5B53;
 	margin: 0;
 }
 
@@ -20,8 +21,6 @@ header {
 	flex-wrap: nowrap;
 	align-items: center;
 	
-    
-
 }
 
 aside{

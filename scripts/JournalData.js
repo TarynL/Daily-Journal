@@ -16,7 +16,7 @@ const journal = [
         mood: "happy"
     },
     {
-        id: 2,
+        id: 3,
         date: "08/09/1991",
         concept: "Flexbox",
         entry: "Learned how flexbox makes your css life easier yet more complicated.",
@@ -30,7 +30,7 @@ const journal = [
         mood: "content"
     },
     {
-        id: 3,
+        id: 2,
         date: "01/20/2020",
         concept: "Javascript",
         entry: "Javascript on javascript, imported and exported, then fixed all the errors and be done.",
