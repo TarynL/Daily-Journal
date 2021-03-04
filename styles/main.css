@@ -1,0 +1,54 @@
+html{
+
+}
+
+nav {
+
+}
+
+.navbar{
+
+}
+
+
+header{
+
+}
+
+aside{
+
+}
+
+footer{
+
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.date{
+
+}
+
+.topic{
+
+}
+
+.entry{
+
+}
+.bottom{
+    display:flex;
+    justify-content: space-evenly;
+}
+.mood{
+   
+}
+
+.submit{
+    
+}

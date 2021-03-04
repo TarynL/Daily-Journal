@@ -30,36 +30,41 @@
     </aside>
 
     <main>
-        <form action="">
-            <fieldset>
-                <label for="journalDate">Date</label>
-                <input type="date" name="journalDate" id="journalDate">
-            </fieldset>
+        <section class="form">
+            <form action="">
+                <fieldset>
+                    <label for="journalDate">Date</label>
+                    <input type="date" name="journalDate" id="journalDate">
+                </fieldset>
 
-            <h4>Topic</h4>
-            <input type="text" name="topic" id="topic">
-
-
-
-            <h2>Journal Entry</h2>
-            <textarea name="journalEntry" id="journalEntry" cols="30" rows="10"></textarea>
+                <fieldset class="field">
+                    <label for="concepts" class="concepts">Journal Concepts</label>
+                    <input type="text" name="concepts" id="journalConcepts" class="text">
+                </fieldset>
 
 
-            <label for="mood">How are you feeling:</label>
-            <select id="mood" name="mood">
-                <option value="happy">Delightful</option>
-                <option value="mad">Infuriated</option>
-                <option value="sad">Out of Sorts</option>
-                <option value="content">Untroubled</option>
-            </select>
-            
-            <input type="submit" value="Submit">
-            <!-- 
-            <button type="submit"></button> -->
+                <fieldset class="field">
+                    <label for="entry">Journal Entry</label>
+                    <textarea name="journalEntry" id="journalEntry" cols="30" rows="10"></textarea>
+                </fieldset>
+
+                <fieldset class="field">
+                    <label class="mood" for="mood">How are you feeling:</label>
+                    <select id="mood" name="mood">
+                        <option value="happy">Delightful</option>
+                        <option value="mad">Infuriated</option>
+                        <option value="sad">Out of Sorts</option>
+                        <option value="content">Untroubled</option>
+                    </select>
+                </fieldset>
+                
+                <fieldset class="field">
+                    <input class="submit" type="submit" value="Submit">
+                </fieldset>
 
 
-        </form>
-
+            </form>
+        </section>
     </main>
 
 
@@ -70,7 +75,7 @@
         <p> &copy; 2021 Cohort 47 <a href="http://nashvillesoftwareschool.com/">Nashville Software School</a></p>
     </footer>
 
-
+    <script type="module" src="./scripts/main.js>
 </body>
 
 </html>
