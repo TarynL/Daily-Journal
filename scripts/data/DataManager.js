@@ -1,4 +1,4 @@
-export const getJournalEntries = () => {
+export const getJournalEntry = () => {
 
     return fetch("http://localhost:8088/JournalEntry")
         .then(response => response.json())
@@ -20,6 +20,6 @@ const defaultEntry = {
     mood: "happy"
 };
 
-export const getJournalEntries = () => {
+export const getJournalEntry = () => {
     return defaultEntry;
 };
