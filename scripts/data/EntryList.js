@@ -1,4 +1,4 @@
-import {Entry} from "./Entry.js";
+import { Entry } from "./Entry.js";
 
 export const EntryList = (allEntries) => {
     let entryHTML = "";
@@ -8,3 +8,4 @@ export const EntryList = (allEntries) => {
     }
     return entryHTML;
 }
+

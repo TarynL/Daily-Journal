@@ -2,13 +2,13 @@ export const Entry = (entryObj) => {
      return `
         <section class="entry">
         
-        <h4 class ="entryTopic">#${journal.id}   ${journal.concept}</h4>
+        <h4 class ="entryTopic">#${entryObj.id}   ${entryObj.concept}</h4>
 
-        <div>${journal.date}</div>
+        <div>${entryObj.date}</div>
 
-        <div>${journal.entry}</div>
+        <div>${entryObj.entry}</div>
 
-        <div>How I was feeling:  ${journal.mood}</div>
+        <div>How I was feeling:  ${entryObj.mood}</div>
         </section>
     `
-};
+}
