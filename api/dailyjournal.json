@@ -1,0 +1,26 @@
+{
+  "journalEntry": [
+    {
+      "id": 1,
+      "date": "03/05/2021",
+      "concept": "GitHub",
+      "entry": "Learned how to add & commit to then push repo up.",
+      "mood": "happy"
+    },
+    {
+      "date": "01/01/2021",
+      "concept": "CSS",
+      "entry": "There are things I still need to work on with CSS. Playing around with colors is fun.",
+      "mood": "happy",
+      "id": 2
+    }
+  ],
+  "entryTopic": [
+    {
+      "id": 1,
+      "concept": "GitHub",
+      "note": "Practice commiting more when working on a project.",
+      "importance": 5
+    }
+  ]
+}
