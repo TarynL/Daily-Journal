@@ -1,3 +1,6 @@
+// define and export a variable whos function is to 
+// retrieve data from another source using json 
+
 export const getJournalEntry = () => {
 
     return fetch("http://localhost:8088/JournalEntry")

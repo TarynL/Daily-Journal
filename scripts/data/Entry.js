@@ -1,3 +1,4 @@
+// define object and return html 
 export const Entry = (entryObj) => {
      return `
         <section class="entry">

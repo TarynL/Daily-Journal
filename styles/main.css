@@ -65,19 +65,22 @@ form{
 }
 
 footer{
-    display:flex;
-    justify-content: space-between;
+    /* display:flex;
+    justify-content: space-between; */
     background-color:#FFF6E5 ;
     margin-bottom: 0;
+    
 
 }
 
 .name{
+    text-align: left;
     
     
 }
 
 .copy{
+    text-align: right;
     
 }
 
