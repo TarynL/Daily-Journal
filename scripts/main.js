@@ -15,6 +15,8 @@ const showEntryList = () => {
 }
 
 
+
+
 // define function and invoke 
 const startDailyJournal = () => {
     showEntryList();

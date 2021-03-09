@@ -26,6 +26,7 @@ header h1 {
     height: 100px;
     font-size: 50pt;
     overflow: hidden;
+    font-family: 'Shadows Into Light', cursive;
     
 	
 }
@@ -110,3 +111,8 @@ form .topic{
     text-align: center;
     
 }
+
+/* .buttons{
+    display:flex;
+    justify-content: space-between;
+} */
