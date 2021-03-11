@@ -19,34 +19,42 @@ export const getJournalEntry = () => {
 
     return fetch("http://localhost:8088/JournalEntry")
         .then(response => response.json())
-        // .then(data => {
-        //     const sortedByDate = data.sort(
-        //         (currentEntry, pastEntry) =>
-        //         Date.parse(currentEntry.date)- Date.parse(pastEntry.date)
-                
-        //     })
-        //     return sortedByDate;
-        //     )
-         .then(parsedResponse => {
-            moodCollection = parsedResponse
-            return parsedResponse;
-     })
         .then(parsedResponse => {
             dateCollection = parsedResponse
             return parsedResponse;
         })
-}        
-        
+}      
+// sort by mood   
+    // return fetch("http://localhost:8088/JournalEntry")
+            // .then(response => response.json())
+          
+    //      .then(parsedResponse => {
+    //         moodCollection = parsedResponse
+    //         return parsedResponse;
+    //  })
+
+export const createPost = postObj => {
+    return fetch("http://localhost:8088/JournalEntry", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(postObj)
+  
+    })
+        .then(response => response.json())
+  }     
 
 
-
-
-        export const getEntryTopic = () => {
+    export const getEntryTopic = () => {
 
     return fetch("http://localhost:8088/EntryTopic")
         .then(response => response.json())
         
 }
+
+
+
 
 // const submitElement = document.querySelector(".submit");
 
@@ -59,6 +67,19 @@ export const getJournalEntry = () => {
 // deleteElement.addEventListener("click", (event) => {
 //     console.log("Entry Deleted", event)
 // })
+
+
+
+const loggedInUser = {
+	id: 1,
+	name: "Taryn",
+	email: "taryn@coolchick.com"
+}
+
+export const getLoggedInUser = () => {
+	return {...loggedInUser};
+}
+
 
 // const defaultEntry = {
 //     id: 1,

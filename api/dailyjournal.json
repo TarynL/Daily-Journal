@@ -1,4 +1,10 @@
 {
+  "Users": [
+    {
+      "name": "Taryn",
+      "email": "taryn@coolchick.org"
+    }
+  ],
   "JournalEntry": [
     {
       "id": 1,
@@ -31,8 +37,23 @@
       "entry": "Made data loop through to make our lives less stressful.",
       "mood": "content",
       "id": 4
+    },
+    {
+      "timestamp": 1615494065717,
+      "concept": "Filters",
+      "entry": "Used filters to filter entries by date and mood.",
+      "mood": "sad",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "date": 1615494531401,
+      "concept": "",
+      "entry": "",
+      "mood": "happy",
+      "userId": 1,
+      "id": 6
     }
-   
   ],
   "EntryTopic": [
     {

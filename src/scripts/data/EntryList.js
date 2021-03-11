@@ -9,6 +9,7 @@ export const EntryList = (allEntries) => {
         entryHTML += Entry(entryObj)
     }
     // return html representation 
+ 
     return entryHTML;
 }
 
