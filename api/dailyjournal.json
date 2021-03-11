@@ -2,32 +2,37 @@
   "JournalEntry": [
     {
       "id": 1,
-      "date": "03/05/2021",
+      "date": "01/01/2020",
+      "timestamp": "1577899472000",
       "concept": "GitHub",
       "entry": "Learned how to add & commit to then push repo up.",
       "mood": "happy"
     },
     {
-      "date": "01/01/2021",
+      "date": "02/02/2020",
+      "timestamp": "1580664272000",
       "concept": "CSS",
       "entry": "There are things I still need to work on with CSS. Playing around with colors is fun.",
       "mood": "happy",
       "id": 2
     },
     {
-      "date": "07/04/1985",
-      "concept": "JavaScript",
-      "entry": "Made data loop through to makeour lives less stressful.",
+      "date": "07/04/2021",
+      "timestamp": "1625419472000",
+      "concept": "Flex",
+      "entry": "Using flex in CSS gives you so much more FLEXibilty",
       "mood": "content",
       "id": 3
     },
     {
-      "date": "08/09/1991",
-      "concept": "Flex",
-      "entry": "Using flex in CSS gives you so much more FLEXibilty",
+      "date": "08/09/2021",
+      "timestamp": "1628529872000",
+      "concept": "JavaScript",
+      "entry": "Made data loop through to make our lives less stressful.",
       "mood": "content",
       "id": 4
     }
+   
   ],
   "EntryTopic": [
     {

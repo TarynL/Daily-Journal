@@ -1,6 +1,6 @@
 html{
     font-family: 'Playfair Display', serif;
-
+    background-color: #C06014 ;
 }
 body {
 	
@@ -21,7 +21,7 @@ nav {
 header h1 {
 	/* display: flex;
 	flex-wrap: nowrap; */
-    background-color:#FFF6E5;
+    background-color:#EDDBCD ;
     text-align: center;
     height: 100px;
     font-size: 50pt;
@@ -36,7 +36,7 @@ header h1 {
 }
 
 aside{
-    background-color: #FFE5DB;
+    background-color: #cdcdcd;
     width: 30%;
     padding: 20px;
     margin: 20px;
@@ -62,13 +62,14 @@ form{
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    background-color:  #D6EFE3;
+    background-color:  whitesmoke;
+    
 }
 
 footer{
     /* display:flex;
     justify-content: space-between; */
-    background-color:#FFF6E5 ;
+    background-color:#EDDBCD ;
     margin-bottom: 0;
     
 
