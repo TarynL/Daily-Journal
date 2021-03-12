@@ -12,14 +12,14 @@
       "timestamp": "1577899472000",
       "concept": "GitHub",
       "entry": "Learned how to add & commit to then push repo up.",
-      "mood": "happy"
+      "mood": "Delightful"
     },
     {
       "date": "02/02/2020",
       "timestamp": "1580664272000",
       "concept": "CSS",
       "entry": "There are things I still need to work on with CSS. Playing around with colors is fun.",
-      "mood": "happy",
+      "mood": "Delighful",
       "id": 2
     },
     {
@@ -27,7 +27,7 @@
       "timestamp": "1625419472000",
       "concept": "Flex",
       "entry": "Using flex in CSS gives you so much more FLEXibilty",
-      "mood": "content",
+      "mood": "Untroubled",
       "id": 3
     },
     {
@@ -35,24 +35,16 @@
       "timestamp": "1628529872000",
       "concept": "JavaScript",
       "entry": "Made data loop through to make our lives less stressful.",
-      "mood": "content",
+      "mood": "Untroubled",
       "id": 4
     },
     {
-      "timestamp": 1615494065717,
-      "concept": "Filters",
+      "timestamp": 1615560526276,
+      "concept": "Filter",
       "entry": "Used filters to filter entries by date and mood.",
-      "mood": "sad",
+      "mood": "OutofSorts",
       "userId": 1,
       "id": 5
-    },
-    {
-      "date": 1615494531401,
-      "concept": "",
-      "entry": "",
-      "mood": "happy",
-      "userId": 1,
-      "id": 6
     }
   ],
   "EntryTopic": [

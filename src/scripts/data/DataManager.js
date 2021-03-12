@@ -23,15 +23,19 @@ export const getJournalEntry = () => {
             dateCollection = parsedResponse
             return parsedResponse;
         })
-}      
+        
+}  
+    
 // sort by mood   
-    // return fetch("http://localhost:8088/JournalEntry")
-            // .then(response => response.json())
-          
-    //      .then(parsedResponse => {
-    //         moodCollection = parsedResponse
-    //         return parsedResponse;
-    //  })
+export const getJournalMood = () =>{
+    return fetch("http://localhost:8088/JournalEntry")
+    .then(response => response.json())
+  .then(parsedResponse => {
+    moodCollection = parsedResponse
+    return parsedResponse;
+})
+}   
+
 
 export const createPost = postObj => {
     return fetch("http://localhost:8088/JournalEntry", {
