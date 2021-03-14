@@ -1,6 +1,6 @@
 html{
-    font-family: 'Playfair Display', serif;
-    background-color: #C06014 ;
+ 
+    background-color: #ededed ;
 }
 body {
 	
@@ -9,26 +9,55 @@ body {
    
 }
 
-nav {
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #373737;
+    /* position: fixed; */
+}
+.logo{
+    color:#e9e7da ;
+}
+nav a:hover {
+    color: #FFCFB6;
 }
 
-.navbar{
+.navbar li {
+	display: inline;
+    margin: 0 3em; 
+  }
 
+.navbar ul {
+    margin: 20px;
+}
+
+.navbar a {
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    font-family: "roboto", serif;
 }
 
 
-header h1 {
-	/* display: flex;
-	flex-wrap: nowrap; */
-    background-color:#EDDBCD ;
+
+.headline {
+    font-family: 'Abril Fatface';
+    background-color:#caa323;
     text-align: center;
     height: 100px;
-    font-size: 50pt;
-    overflow: hidden;
-    font-family: 'Shadows Into Light', cursive;
+    margin: .5em 2em;
     
 	
+}
+.headline h1{
+    margin:0:
+    font-size:large;
+
+}
+.headline h2 {
+    margin: 0;
 }
 .logo{
 
@@ -36,7 +65,7 @@ header h1 {
 }
 
 aside{
-    background-color: #cdcdcd;
+    background-color: #c36b12;
     width: 30%;
     padding: 20px;
     margin: 20px;
@@ -49,7 +78,7 @@ aside{
 
 }
 
-h2{
+aside h2{
     text-decoration: underline;
 }
 
@@ -69,9 +98,20 @@ form{
 footer{
     /* display:flex;
     justify-content: space-between; */
-    background-color:#EDDBCD ;
+    background-color:#373737 ;
     margin-bottom: 0;
+    color: white;
+   
+    /* position: fixed; */
     
+}
+
+footer a{
+    color:#c36b12;
+}
+
+footer a:hover {
+    color: white;
 
 }
 

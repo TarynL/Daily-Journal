@@ -21,7 +21,7 @@ export const moodSelect = () => {
                 Filter by Mood <select id="moodSelection">
                     <option>Delighful</option>
                     <option>Infuriated</option>
-                    <option>Out of Sorts</option>
+                    <option>OutofSorts</option>
                     <option>Untroubled</option>
                 </select>
                 <span id="moodCount">0</span>

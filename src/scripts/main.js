@@ -2,7 +2,7 @@
 
 // EntryListComponent();
 
-import { getEntryTopic, getJournalEntry, useMoodCollection, useDateCollection, getLoggedInUser, createPost } from "./data/DataManager.js"
+import { getEntryTopic, getJournalEntry, getJournalMood, useMoodCollection, useDateCollection, getLoggedInUser, createPost } from "./data/DataManager.js"
 import { EntryList } from "./data/EntryList.js"
 import { moodSelect, dateSelect } from "./data/Entry.js"
 import { PostEntry } from "./data/PostEntry.js"
@@ -17,6 +17,13 @@ const showEntryList = () => {
     entryElement.innerHTML = EntryList(allEntries);
   });
 }
+const showMoodList = () => {
+  const entryElement = document.querySelector(".EntryList");
+  getJournalMood().then((allEntries) => {
+    entryElement.innerHTML = EntryList(allEntries);
+  });
+}
+
 
 const showMoodSelect = () => {
   const moodElement = document.querySelector(".moodFilter");
@@ -40,6 +47,7 @@ const startDailyJournal = () => {
   showPostEntry();
   showDateSelect();
   showMoodSelect();
+  showMoodList();
 
 }
 
@@ -83,28 +91,30 @@ applicationElement.addEventListener("click", event => {
 
 
 
-// debugger
-// // get a copy and filter data 
-// const filteredMood =  (mood) => {
- 
-//   const showFilteredMood =useMoodCollection().filter(singleMood => {
-//   if (singleMood.mood === mood) {
-//     return singleMood
-//   }
-// })
-// const entryElement = document.querySelector(".EntryList");
-// entryElement.innerHTML = EntryList(filteredMood);
-// }
 
-// const showFilteredMood = () => {
-//   applicationElement.addEventListener("change", event => {
+
+
+
+  applicationElement.addEventListener("change", event => {
    
-//     if (event.target.id === "moodSelection") {
-//       const selectedMood = event.target.value
-//       showFilteredMood(selectedMood);
-//     }
-//   })
-// }
+    if (event.target.id === "moodSelection") {
+      const selectedMood = event.target.value
+     
+      showFilteredMood(selectedMood);
+    }
+  })
+ 
+// get a copy and filter data 
+const showFilteredMood =  (mood) => {
+ 
+  const filteredMood = useMoodCollection().filter(singleMood => {
+  if (singleMood.mood === mood) {
+    return singleMood;
+  }
+})
+const entryElement = document.querySelector("#entryLog");
+entryElement.innerHTML = EntryList(filteredMood);
+}
 
 
 
@@ -134,3 +144,4 @@ const showFilteredDate = (year) => {
   entryElement.innerHTML = EntryList(filteredDate);
 };
 
+                

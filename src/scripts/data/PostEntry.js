@@ -21,10 +21,10 @@ export const PostEntry = () => {
                 <fieldset class="field">
                     <label class="mood" for="mood">How are you feeling:</label>
                     <select id="mood" name="mood">
-                        <option value="Delightful">Delightful</option>
-                        <option value="Infuriated">Infuriated</option>
-                        <option value="OutofSorts">Out of Sorts</option>
-                        <option value="Untroubled">Untroubled</option>
+                        <option value="Delightful"> Delightful</option>
+                        <option value="Infuriated"> Infuriated</option>
+                        <option value="OutofSorts"> Out of Sorts</option>
+                        <option value="Untroubled"> Untroubled</option>
                     </select>
                 </fieldset>
 
