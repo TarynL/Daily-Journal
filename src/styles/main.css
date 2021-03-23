@@ -1,0 +1,159 @@
+html{
+ 
+    background-color: #ededed ;
+}
+body {
+	
+	margin: 0;
+    
+   
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #373737;
+    /* position: fixed; */
+}
+.logo{
+    color:#e9e7da ;
+}
+nav a:hover {
+    color: #FFCFB6;
+}
+
+.navbar li {
+	display: inline;
+    margin: 0 3em; 
+  }
+
+.navbar ul {
+    margin: 20px;
+}
+
+.navbar a {
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    font-family: "roboto", serif;
+}
+
+
+
+.headline {
+    font-family: 'Abril Fatface';
+    background-color:#caa323;
+    text-align: center;
+    height: 100px;
+    margin: .5em 4em;
+    
+	
+}
+.headline h1{
+    margin:0:
+    font-size:large;
+
+}
+.headline h2 {
+    margin: 0;
+}
+.logo{
+
+    justify-content: flex-start;
+}
+
+aside{
+    background-color: #c36b12;
+    width: 30%;
+    padding: 20px;
+    margin: 20px;
+    float: right;
+    
+    overflow: scroll;
+    max-height: 400px;
+    
+    
+
+}
+
+aside h2{
+    text-decoration: underline;
+}
+
+ aside .entry{
+    border: solid 2px black;
+}
+form{
+    margin: 20px;
+    padding: 60px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color:  whitesmoke;
+    
+}
+
+footer{
+    /* display:flex;
+    justify-content: space-between; */
+    background-color:#373737 ;
+    margin-bottom: 0;
+    color: white;
+   
+    /* position: fixed; */
+    
+}
+
+footer a{
+    color:#c36b12;
+}
+
+footer a:hover {
+    color: white;
+
+}
+
+.name{
+    text-align: left;
+    
+    
+}
+
+.copy{
+    text-align: right;
+    
+}
+
+
+
+
+form .date{
+    justify-content: flex-start;
+}
+
+form .topic{
+    justify-content: flex-end;
+}
+
+.entry{
+
+}
+.bottom{
+    display:flex;
+    justify-content: space-evenly;
+}
+.mood{
+   
+}
+
+.submit{
+    text-align: center;
+    
+}
+
+/* .buttons{
+    display:flex;
+    justify-content: space-between;
+} */
