@@ -11,6 +11,7 @@ export const Entry = (entryObj) => {
 
         <div class ="pastMood">How I was feeling:  ${entryObj.mood}</div>
         <button id="delete__${entryObj.id}">Delete</button>
+        <button id="edit__${entryObj.id}">Edit</button>
         </section>
     `
 }
@@ -22,7 +23,7 @@ export const moodSelect = () => {
                 Filter by Mood <select id="moodSelection">
                     <option>Delighful</option>
                     <option>Infuriated</option>
-                    <option>OutofSorts</option>
+                    <option>Out of Sorts</option>
                     <option>Untroubled</option>
                 </select>
                 <span id="moodCount">0</span>

@@ -70,6 +70,29 @@ export const deletePost = JournalEntryId => {
   }
 
 
+// retrieve a single post 
+  export const getSinglePost = (JournalEntryId) => {
+    return fetch(`http://localhost:8088/JournalEntry/${JournalEntryId}`)
+      .then(response => response.json())
+  }
+
+//   update a post in the database. Do not create a new item just replace the data 
+export const updatePost = entryObj => {
+    return fetch(`http://localhost:8088/JournalEntry/${entryObj.id}`, {
+        method: "PUT",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(entryObj)
+  
+    })
+        .then(response => response.json())
+        .then(getJournalEntry)
+  }
+
+
+
+
 
 
 // const submitElement = document.querySelector(".submit");

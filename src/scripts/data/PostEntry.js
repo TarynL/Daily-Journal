@@ -23,7 +23,7 @@ export const PostEntry = () => {
                     <select id="mood" name="mood">
                         <option value="Delightful"> Delightful</option>
                         <option value="Infuriated"> Infuriated</option>
-                        <option value="OutofSorts"> Out of Sorts</option>
+                        <option value="Out of Sorts"> Out of Sorts</option>
                         <option value="Untroubled"> Untroubled</option>
                     </select>
                 </fieldset>
