@@ -2,7 +2,13 @@
   "Users": [
     {
       "name": "Taryn",
-      "email": "taryn@coolchick.org"
+      "email": "taryn@coolchick.org",
+      "id": 1
+    },
+    {
+      "name": "Gus",
+      "email": "gus@pugparty.edu",
+      "id": 2
     }
   ],
   "JournalEntry": [

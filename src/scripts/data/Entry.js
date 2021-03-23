@@ -10,6 +10,7 @@ export const Entry = (entryObj) => {
         <div>${entryObj.entry}</div>
 
         <div class ="pastMood">How I was feeling:  ${entryObj.mood}</div>
+        <button id="delete__${entryObj.id}">Delete</button>
         </section>
     `
 }

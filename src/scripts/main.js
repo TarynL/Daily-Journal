@@ -2,7 +2,7 @@
 
 // EntryListComponent();
 
-import { getEntryTopic, getJournalEntry, getJournalMood, useMoodCollection, useDateCollection, getLoggedInUser, createPost } from "./data/DataManager.js"
+import { getJournalEntry, getJournalMood, useMoodCollection, useDateCollection, getLoggedInUser, createPost, deletePost } from "./data/DataManager.js"
 import { EntryList } from "./data/EntryList.js"
 import { moodSelect, dateSelect } from "./data/Entry.js"
 import { PostEntry } from "./data/PostEntry.js"
@@ -143,5 +143,16 @@ const showFilteredDate = (year) => {
   //     const dateElement = document.querySelector(".dateFilter");
   entryElement.innerHTML = EntryList(filteredDate);
 };
+
+applicationElement.addEventListener("click", event => {
+  event.preventDefault();
+  if (event.target.id.startsWith("delete")) {
+    const JournalEntryId = event.target.id.split("__")[1];
+    deletePost(JournalEntryId)
+      .then(response => {
+        showEntryList();
+      })
+  }
+})
 
                 
